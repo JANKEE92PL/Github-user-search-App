@@ -112,7 +112,7 @@ function updateProfile(data) {
     followers.innerText = `${data.followers}`;
     following.innerText = `${data.following}`;
     user_location.innerText = checkNull(data.location, user_location);
-    page.innerText = checkNull(data.blog, page);
+    page.innerText = checkNull(data.blog, page); //TODO START // ! <- BUG ID 001
     link_Github.setAttribute("href", data.blog);
     twitter.innerText = checkNull(data.twitter_username, twitter);
     if (data.twitter_username) {
@@ -120,7 +120,7 @@ function updateProfile(data) {
         "href",
         "https://twitter.com/" + data.twitter_username
       );
-    }
+    } //TODO END // ! BUG ID 001 END ->
     company.innerText = checkNull(data.company, company);
     searchbar.classList.toggle("active");
     profilecontainer.classList.toggle("active");
