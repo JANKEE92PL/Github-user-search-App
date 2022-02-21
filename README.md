@@ -1,4 +1,4 @@
-# GitHub user search app solution
+# GitHub user search app
 
 
 ## Table of contents
@@ -26,7 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](screenshot)
+![image](https://user-images.githubusercontent.com/65852150/155011396-82df7420-b8d5-4c0f-98ea-e0e120a5c7cc.png)
+![image](https://user-images.githubusercontent.com/65852150/155011418-f03ff51f-9cde-4c0f-ae4a-02d042ea1138.png)
+
 
 ### Links
 
@@ -45,4 +47,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@JANKEE92PL](https://www.frontendmentor.io/profile/JANKEE92PL)
+- [@JANKEE92PL](https://www.frontendmentor.io/profile/JANKEE92PL)
