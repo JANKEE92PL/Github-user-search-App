@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #141C2F;
+}
+
+body .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25vh auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .wrapper .container {
+  position: relative;
+  background-color: #1F2A48;
+  border-radius: 16px;
+  width: 50%;
+  text-align: center;
+  -webkit-box-shadow: 0px 10px 13px -7px, 0px 0px 30px 30px rgba(87, 102, 127, 0.3);
+          box-shadow: 0px 10px 13px -7px, 0px 0px 30px 30px rgba(87, 102, 127, 0.3);
+}
+
+@media screen and (max-width: 1440px) {
+  body .wrapper .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body .wrapper .container {
+    width: 90%;
+  }
+}
+
+body .wrapper .container .header .title {
+  color: #F8FDFF;
+  margin: 40px auto;
+  font-size: 24px;
+}
+
+body .footer {
+  text-align: center;
+  margin: 40px auto;
+}
+
+body .footer a {
+  text-decoration: none;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+body .footer a:visited {
+  color: white;
+}
+
+body .footer a:hover {
+  text-shadow: 0px 0px 20px red;
+}
+
+@media screen and (max-width: 1440px) {
+  /* style changes when the screen gets smaller */
+}
+
+@media screen and (max-width: 375px) {
+  /* And even smaller */
+}
+/*# sourceMappingURL=styles.css.map */

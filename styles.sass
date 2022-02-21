@@ -1,0 +1,120 @@
+//*  Typography
+
+// FONTS 
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Roboto:wght@400;700&display=swap')
+$family: 'Roboto', sans-serif
+$light: 400
+$bold: 700
+$fontsize: 24px
+
+//* Variables   
+
+//* Layout
+
+$mobile: 375px
+$desktop: 1440px
+
+// Margins / Paddings / Radius
+
+$m-40: 40px
+$m-20: 20px
+$radius: 16px
+
+//* Colors
+
+// Primary
+
+$background: #141C2F
+$container: #1F2A48
+$container_secondary: #202A44
+$colorFont: #F8FDFF
+$muted: #9297A4
+$blue: #0079FE
+
+// ? STYLES
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    font-family: $family
+    background-color: $background
+    .wrapper
+        display: flex
+        margin: 25vh auto
+        align-items: center
+        justify-content: center
+        .container
+            position: relative
+            background-color: $container
+            border-radius: 16px
+            width: 50%
+            text-align: center
+            box-shadow: 0px 10px 13px -7px , 0px 0px 30px 30px rgba(87, 102, 127, .3)
+            @media screen and (max-width: $desktop)
+                width: 70%
+            @media screen and (max-width: $mobile)
+                width: 90%
+            .header
+
+                .title
+                    color: $colorFont
+                    margin: $m-40 auto
+                    font-size: $fontsize
+
+                #btn-mode
+                    #mode-text
+
+                    .icon-container
+
+            .searchbar-container
+                label
+                    input
+
+            .btn-search
+                .error
+
+        .profile-container
+            .profile-content
+                .profile-header
+                    #avatar
+
+                    .profile-info-wrapper
+
+                        .profile-name
+
+                            #name
+                            #user
+                    #date
+
+            .bio
+            .profile-stats-wrapper
+                .profile-stat
+                    .stat-title
+
+                        .stat-value
+
+            .profile-bottom-wrapper
+                .profile-info
+                    .bottom-icons
+
+    .footer
+        text-align: center
+        margin: $m-40 auto
+        color:
+        a
+            text-decoration: none
+            transition: 500ms
+            &:visited
+                color: white
+            &:hover
+                text-shadow: 0px 0px 20px red
+
+@media screen and (max-width: $desktop)
+    /* style changes when the screen gets smaller */
+
+@media screen and (max-width: $mobile)
+        /* And even smaller */
