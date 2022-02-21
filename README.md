@@ -1,6 +1,7 @@
 # GitHub user search app
 
-
+![GitHub language count](https://img.shields.io/github/languages/count/Jankee92pl/Github-user-search-App)
+![GitHub issues](https://img.shields.io/github/issues-raw/jankee92pl/Github-user-search-App)
 ## Table of contents
 
 - [Overview](#overview)
