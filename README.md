@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [GitHub Page](#)
+- Live Site URL: [GitHub Page](https://jankee92pl.github.io/Github-user-search-App/)
 
 ## My process
 
