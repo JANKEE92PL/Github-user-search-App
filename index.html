@@ -9,16 +9,17 @@
   <title>GitHub user search app</title>
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-  <main class="wrapper">
+  <main>
     <div class="container">
       <div class="header">
         <h1 class="title">devfinder</h1>
         <div id="btn-mode">
           <p id="mode-text">DARK</p>
-          <div class="icon-container"><i class='bx bx-sun'></i></div>
+          <div class="icon-container"><i id="mode-icon" class='bx bx-moon'></i></div>
         </div>
       </div>
       <div class="searchbar-container active">
@@ -34,7 +35,7 @@
       <div class="profile-container">
         <div class="profile-content">
           <div class="profile-header">
-            <img id="avatar" src="#" alt="">
+            <img id="avatar" src="./assets/eaea.png" alt="">
             <div class="profile-info-wrapper">
               <div class="profile-name">
                 <h2 id="name"></h2>
@@ -60,19 +61,21 @@
           </div>
           <div class="profile-bottom-wrapper">
             <div class="profile-info">
-              <div class="bottom-icons"><i class='bx bx-compass'></i>San Francisco</div>
+              <div class="bottom-icons"><i class='bx bx-map'></i></div>
               <p id="location"></p>
             </div>
             <div class="profile-info">
-              <div class="bottom-icons"><i class='bx bx-link'></i>https://###</div>
-              <p id="page"></p>
+              <div class="bottom-icons"><i class='bx bx-link'></i></div>
+              <a id="link_github" href="" target="blank">
+                <p id="page"></p>
+              </a>
             </div>
             <div class="profile-info">
-              <div class="bottom-icons"><i class='bx bxl-twitter'></i>JANKEE92PL</div>
+              <div class="bottom-icons"><i class='bx bxl-twitter'></i></div>
               <p id="twitter"></p>
             </div>
             <div class="profile-info">
-              <div class="bottom-icons"><i class='bx bx-building-house'></i>IBM</div>
+              <div class="bottom-icons"><i class='bx bx-building-house'></i></div>
               <p id="company"></p>
             </div>
           </div>
@@ -80,10 +83,8 @@
       </div>
     </div>
   </main>
-  <footer class="footer">
-    Coded by <a href="https://github.com/JANKEE92PL">JANKEE92PL</a>
-  </footer>
   <script src="main.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
